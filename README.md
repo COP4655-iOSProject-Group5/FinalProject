@@ -1,10 +1,11 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# MySched
 
 ## Table of Contents
-1. [Overview](#Overview)
+1. [Overview]
+  This app is designed to serve as a task coordinator for users. The app calculates the 
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
