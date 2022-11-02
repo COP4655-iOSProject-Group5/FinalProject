@@ -83,7 +83,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="" width=600>
+<img src="wireframe.jpeg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
