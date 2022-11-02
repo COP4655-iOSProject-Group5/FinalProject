@@ -4,7 +4,7 @@ Original App Design Project - README Template
 # SavedbytheBlock
 
 ## Table of Contents
-1. [Overview] 
+1. [Overview](#Overview)
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
