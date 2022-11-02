@@ -28,39 +28,58 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User (new) logs in and is prompted to enter recurring schedule
+* User will include goals they’d like to achieve (daily 8 hours of sleep, gym 3 times a week, 6 hours dedicated to studying etc)
+* Program will distribute allotted time between users tasks/responsibilities while also taking personal goals into consideration.
+* User will have multiple block schedule options (if applicable) to choose which is better suited for them.
+
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users have a friends list and can add one another.
+* Users have the option to make their schedule private or public for their friends to see. If private, other users are able to see if they are busy/available without disclosing task information.
+
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login Screen
+   * User can login
+
+* Registration Screen 
+   * User can create a new account
+  
+* Tasks Screen - Insert upcoming responsibilities
+   * Users input their upcoming goals for the week.
+
+* Schedule/Calendar selection
+   * Sorted block schedule for the day/week is shown.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Profile
+* Schedule/calendar selection
+* Add Tasks
+* Notifications
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Welcome Screen
+   * When the app launches the user is welcomed with the logo and navigated to the welcome page, where the user is prompted to sign up or log in.
+
+* Schedule/Calendar selection
+   * Once the user logs in they are navigated to the schedule screen where their adjusted block schedule is displayed. If they are a new user, they will be prompted to add a task to get started.
+    
+* Profile Page
+   * Allows the user to fill in information about themselves.
+
+* Add Tasks
+   * User will be able to adjust (add/delete) schedule and tasks accordingly 
+
+* Notifications 
+   * The app will alert users of upcoming events and responsibilities within the time frame of users choosing.
+
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
