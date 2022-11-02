@@ -17,10 +17,10 @@ This app is designed to serve as a task coordinator for users. The app will be a
 [Evaluation of your app across the following attributes]
 - **Category: Business/Productivity**
 - **Mobile: The app is to be feasible for iOS devices and compatible watches.**
-- **Story: Analyzes users current schedule, responsibilities, as well as the goals they would like to accomplish (i.e better sleep schedule, more study sessions, personal time etc)  and will output different block schedules for the user to choose from that will help them visualize how to allocate their time more wisely. **
-- **Market: There is a very large market for this app. The app will cover a massive user base that people of all ages on both computer and mobile devices will be able to use. This app will provide a large value to a niche group of people because it will make sure people who have a hard time keeping things on schedule are better with this problem. **
-- **Habit: The intent is to have the user on the app daily or as needed.**
-- **Scope: This app will probably be somewhat challenging but, for the most part, it will be considered moderate by the time we are at the end of the program. A stripped down version of this app will still be very interesting to build because it doesn’t require things to be too complicated. The product is clearly defined.**
+- ** Story: Analyzes users current schedule, responsibilities, as well as the goals they would like to accomplish (i.e better sleep schedule, more study sessions, personal time etc)  and will output different block schedules for the user to choose from that will help them visualize how to allocate their time more wisely. **
+- ** Market: There is a very large market for this app. The app will cover a massive user base that people of all ages on both computer and mobile devices will be able to use. This app will provide a large value to a niche group of people because it will make sure people who have a hard time keeping things on schedule are better with this problem. **
+- ** Habit: The intent is to have the user on the app daily or as needed.**
+- ** Scope: This app will probably be somewhat challenging but, for the most part, it will be considered moderate by the time we are at the end of the program. A stripped down version of this app will still be very interesting to build because it doesn’t require things to be too complicated. The product is clearly defined.**
 
 ## Product Spec
 
