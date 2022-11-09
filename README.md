@@ -89,7 +89,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+  * Task
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
