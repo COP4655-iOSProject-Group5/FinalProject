@@ -90,6 +90,14 @@ This app is designed to serve as a task coordinator for users. The app will be a
 [This section will be completed in Unit 9]
 ### Models
   * Task
+  <img src="wireframe.jpeg" width=600>
+  
+  * Schedule
+  <img src="wireframe.jpeg" width=600>
+  
+  * Profile
+  <img src="wireframe.jpeg" width=600>
+  
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
