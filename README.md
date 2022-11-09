@@ -82,7 +82,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
 
 ## Wireframes
-<img src="wireframe.jpeg" width=600>
+<img src="notifications.png" width=600>
 
 ### [BONUS] Interactive Prototype
 
