@@ -103,7 +103,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
   * **Task View Screen**
     * (CREATE/POST) Create new task
     * (DELETE) Delete existing task
-    ...
+    ```
     
     let task = PFObject(taskName:"Study Time")
     task["taskDuration"] = "1 hour"
@@ -115,7 +115,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
           }
       }
       
-     ...
+     ```
 
   * **Profile Screen**
     * (READ/GET) Query logged in user object
