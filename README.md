@@ -114,6 +114,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
   |-----|-----|-----| 
   | name | string | Username | 
   | image | File | User profile image |
+  | bio | string | A short description about the user | 
   
   * **Account**
   
