@@ -87,7 +87,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
   * **Task**
   
