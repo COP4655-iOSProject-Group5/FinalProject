@@ -100,5 +100,8 @@ This app is designed to serve as a task coordinator for users. The app will be a
   
 ### Networking
 - [Add list of network requests by screen ]
+* **Home Screen/Calendar view
+    * (CREATE/POST) Create new task
+    * (DELETE) Delete existing task
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
