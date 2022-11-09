@@ -97,10 +97,15 @@ This app is designed to serve as a task coordinator for users. The app will be a
   |   dueDate     |    DateTime   | Date when a task is due |
   | description | String | Description of task | 
   | user | Pointer | Task pointed to assigned user | 
-  <img src="task.jpeg" width=600>
   
   * **Schedule**
-  <img src="schedule.jpeg" width=600>
+  
+  | Property | Type | Description | 
+  |------|-----|------|
+  | objectId | String | Unique ID of item | 
+  | dueDate | DateTime | Date when a task is due | 
+  | description | String | Description of task | 
+  | user | Pointer | Task pointed to assigned user | 
   
   * **Profile**
   <img src="profile.jpeg" width=600>
