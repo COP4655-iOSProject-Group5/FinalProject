@@ -106,5 +106,8 @@ This app is designed to serve as a task coordinator for users. The app will be a
   * **Profile Screen**
     * (READ/GET) Query logged in user object
     * (Update/PUT) Update user profile image
+  * **Notification Screen**
+    * (CREATE/POST) Create new alerts/reminders for upcoming tasks
+    * (DELETE) Delete old or completed task reminders
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
