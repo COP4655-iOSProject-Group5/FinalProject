@@ -97,6 +97,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
   |   dueDate     |    DateTime   | Date when a task is due |
   | description | String | Description of task | 
   | user | Pointer | Task pointed to assigned user | 
+  | length | int | Estimated length of time for completion | 
   
   * **Schedule**
   
@@ -110,9 +111,18 @@ This app is designed to serve as a task coordinator for users. The app will be a
   * **Profile**
   
   | Property | Type | Description | 
-  |-----|-----|-----|
-  | image | File | User profile image | 
+  |-----|-----|-----| 
   | name | string | Username | 
+  | image | File | User profile image |
+  
+  * **Account**
+  
+  | Property | Type | Description | 
+  |-----|-----|-----|
+  | email | String | User email used to log into their account | 
+  | password | DataTime | User set password used to log into their account | 
+  | name | String | First and last name of user | 
+  | phoneNumber | String | User phone number | 
   
 ### Networking
 * [Add list of network requests by screen ]
