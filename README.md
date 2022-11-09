@@ -112,7 +112,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
   
   | Property | Type | Description | 
   |-----|-----|-----| 
-  | name | string | Username | 
+  | name | string | First and last name of user | 
   | image | File | User profile image |
   | bio | string | A short description about the user | 
   
@@ -120,7 +120,8 @@ This app is designed to serve as a task coordinator for users. The app will be a
   
   | Property | Type | Description | 
   |-----|-----|-----|
-  | email | String | User email used to log into their account | 
+  | email | String | Email associated with user | 
+  | username | String | Username created by the user used to log into their account | 
   | password | DataTime | User set password used to log into their account | 
   | name | String | First and last name of user | 
   | phoneNumber | String | User phone number | 
