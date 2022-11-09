@@ -102,6 +102,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 * [Add list of network requests by screen ]
   * **Task View Screen**
     * (CREATE/POST) Create new task
+        "let query = PFQuery(className: "Post")"
     * (DELETE) Delete existing task
   * **Profile Screen**
     * (READ/GET) Query logged in user object
