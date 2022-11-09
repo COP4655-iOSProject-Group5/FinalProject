@@ -102,9 +102,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 * [Add list of network requests by screen ]
   * **Task View Screen**
     * (CREATE/POST) Create new task
-    * (DELETE) Delete existing task
     ```
-    
     let task = PFObject(taskName:"Study Time")
     task["taskDuration"] = "1 hour"
     task.saveInBackground { (succeeded, error)  in
@@ -116,6 +114,18 @@ This app is designed to serve as a task coordinator for users. The app will be a
       }
       
      ```
+    * (DELETE) Delete existing task
+     ```
+     PFObject.deleteAll(inBackground: objectArray) { 
+     (succeeded, error) in
+         if (succeeded) {
+            // The array of objects was successfully deleted.
+        } else {
+            // There was an error. Check the errors localizedDescription.
+           }
+      }
+      
+      ```
 
   * **Profile Screen**
     * (READ/GET) Query logged in user object
