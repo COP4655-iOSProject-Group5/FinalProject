@@ -90,7 +90,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 [This section will be completed in Unit 9]
 ### Models
   * **Task**
-  <img src="task.png" width=600>
+  <img src="task.jpeg" width=600>
   
   * **Schedule**
   <img src="schedule.png" width=600>
