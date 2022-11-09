@@ -108,7 +108,11 @@ This app is designed to serve as a task coordinator for users. The app will be a
   | user | Pointer | Task pointed to assigned user | 
   
   * **Profile**
-  <img src="profile.jpeg" width=600>
+  
+  | Property | Type | Description | 
+  |-----|-----|-----|
+  | image | File | User profile image | 
+  | name | string | Username | 
   
 ### Networking
 * [Add list of network requests by screen ]
