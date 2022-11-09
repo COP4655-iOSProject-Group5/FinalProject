@@ -107,6 +107,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
   | dueDate | DateTime | Date when a task is due | 
   | description | String | Description of task | 
   | user | Pointer | Task pointed to assigned user | 
+  | allotedTime | int | Amount of time given towards a task that day | 
   
   * **Profile**
   
