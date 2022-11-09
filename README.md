@@ -89,13 +89,13 @@ This app is designed to serve as a task coordinator for users. The app will be a
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-  * Task
+  * **Task**
   <img src="wireframe.jpeg" width=600>
   
-  * Schedule
+  * **Schedule**
   <img src="wireframe.jpeg" width=600>
   
-  * Profile
+  * **Profile**
   <img src="wireframe.jpeg" width=600>
   
 ### Networking
