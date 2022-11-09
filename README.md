@@ -103,6 +103,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
   * **Task View Screen**
     * (CREATE/POST) Create new task
     ```
+    
     let task = PFObject(taskName:"Study Time")
     task["taskDuration"] = "1 hour"
     task.saveInBackground { (succeeded, error)  in
@@ -116,6 +117,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
      ```
     * (DELETE) Delete existing task
      ```
+     
      PFObject.deleteAll(inBackground: objectArray) { 
      (succeeded, error) in
          if (succeeded) {
@@ -129,9 +131,24 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
   * **Profile Screen**
     * (READ/GET) Query logged in user object
+    ```
+    
+    PFUser.logInWithUsername(inBackground:"myname", password:"mypass") {
+    (user: PFUser?, error: Error?) -> Void in
+        if user != nil {
+           // Do stuff after successful login.
+       } else {
+          // The login failed. Check error to see why.
+           }
+      }
+      
+      ```
+
     * (Update/PUT) Update user profile image
+    
   * **Notification Screen**
     * (CREATE/POST) Create new alerts/reminders for upcoming tasks
     * (DELETE) Delete old or completed task reminders
+    
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
