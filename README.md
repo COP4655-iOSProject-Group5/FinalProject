@@ -90,13 +90,13 @@ This app is designed to serve as a task coordinator for users. The app will be a
 [This section will be completed in Unit 9]
 ### Models
   * **Task**
-  <img src="wireframe.jpeg" width=600>
+  <img src="task.png" width=600>
   
   * **Schedule**
-  <img src="wireframe.jpeg" width=600>
+  <img src="schedule.png" width=600>
   
   * **Profile**
-  <img src="wireframe.jpeg" width=600>
+  <img src="profile.png" width=600>
   
 ### Networking
 * [Add list of network requests by screen ]
