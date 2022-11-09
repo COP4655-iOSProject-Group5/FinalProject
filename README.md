@@ -93,10 +93,10 @@ This app is designed to serve as a task coordinator for users. The app will be a
   <img src="task.jpeg" width=600>
   
   * **Schedule**
-  <img src="schedule.png" width=600>
+  <img src="schedule.jpeg" width=600>
   
   * **Profile**
-  <img src="profile.png" width=600>
+  <img src="profile.jpeg" width=600>
   
 ### Networking
 * [Add list of network requests by screen ]
