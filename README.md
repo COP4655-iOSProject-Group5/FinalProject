@@ -186,7 +186,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
 ## Saved By The Block
 
-#### REQUIRED (10pts)
+#### User Stories
 - [X] Backend server on Back4App created
 - [X] User can create an account
 - [X] User can log in
@@ -203,5 +203,3 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
 <img src="http://g.recordit.co/lV1d9hcddq.gif" width=250><br> 
 
-### Notes
-We were not able to get the goal page up and running due to issues with the tab bar navigation. We wasted time utilizing the plain tab bar until we found the tab bar controller was an easier approach. Our goal is to get the pages created and navigating properly and from there complete our assigned pages. 
