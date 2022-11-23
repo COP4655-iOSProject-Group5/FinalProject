@@ -195,8 +195,7 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/lV1d9hcddq.gif" width=250><br>
-<img src="http://g.recordit.co/86yOOeSw7X.gif" width=250><br>
+<img src="http://g.recordit.co/lV1d9hcddq.gif" width=250> <img src="http://g.recordit.co/86yOOeSw7X.gif" width=250><br>
 
 ### Notes
 We were not able to get the goal page up and running due to issues with the tab bar navigation. We wasted time utilizing the plain tab bar and manually connected the UI controller to segues and navigation controllers until we found the tab bar controller was an easier approach. Our goal is to get the pages created and navigating properly and from there complete our assigned pages. 
