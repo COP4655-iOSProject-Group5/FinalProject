@@ -193,6 +193,12 @@ This app is designed to serve as a task coordinator for users. The app will be a
 - [X] User can navigate to different tabs
 - [ ] User can insert goals 
 
+#### Milestone Deliverables
+Updated status of issues in Project board (2pts)
+Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+Completed user stories checked-off in README (2pts)
+Gifs created to show build progress and added to README (3pts)
+
 ### App Walkthrough GIF
 
 <img src="http://g.recordit.co/lV1d9hcddq.gif" width=250><br> <img src="http://g.recordit.co/86yOOeSw7X.gif" width=250><br>
