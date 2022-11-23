@@ -189,10 +189,10 @@ This app is designed to serve as a task coordinator for users. The app will be a
 #### REQUIRED (10pts)
 - [X] User can create an account
 - [X] User can log in
+- [X] User can navigate to different tabs
 - [ ] User can insert goals 
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
 <img src="http://g.recordit.co/lV1d9hcddq.gif" width=250><br>
 
