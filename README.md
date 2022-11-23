@@ -181,3 +181,20 @@ This app is designed to serve as a task coordinator for users. The app will be a
     
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+
+
+## Saved By The Block
+
+#### REQUIRED (10pts)
+- [X] User can create an account
+- [X] User can log in
+- [ ] User can insert goals 
+
+### App Walkthrough GIF
+`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
+
+<img src="http://g.recordit.co/lV1d9hcddq.gif" width=250><br>
+
+### Notes
+We were not able to get the goal page up and running due to issues with the tab bar navigation. We wasted time utilizing the plain tab bar and manually connected the UI controller to segues and navigation controllers until we found the tab bar controller was an easier approach. Our goal is to get the pages created and navigating properly and from there complete our assigned pages. 
