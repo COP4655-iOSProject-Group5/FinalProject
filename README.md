@@ -203,3 +203,14 @@ This app is designed to serve as a task coordinator for users. The app will be a
 
 <img src="http://g.recordit.co/lV1d9hcddq.gif" width=250><br> 
 
+#### Unit 3 User Stories
+- [X] User can stay logged in accross restarts
+- [X] User can logout
+
+#### Unit 3 Milestone Deliverables
+- [ ] Updated status of issues in Project board (2pts)
+- [ ] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+- [X] Completed user stories checked-off in README (2pts)
+- [ ] Gifs created to show build progress and added to README (3pts)
+
+<img src="http://g.recordit.co/QTFud83PTY.gif" width=250><br> 
