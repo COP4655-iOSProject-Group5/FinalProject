@@ -208,9 +208,9 @@ This app is designed to serve as a task coordinator for users. The app will be a
 - [X] User can logout
 
 #### Unit 3 Milestone Deliverables
-- [ ] Updated status of issues in Project board (2pts)
-- [ ] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+- [X] Updated status of issues in Project board (2pts)
+- [X] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
 - [X] Completed user stories checked-off in README (2pts)
-- [ ] Gifs created to show build progress and added to README (3pts)
+- [X] Gifs created to show build progress and added to README (3pts)
 
 <img src="http://g.recordit.co/QTFud83PTY.gif" width=250><br> 
