@@ -35,11 +35,6 @@ class LoginViewController: UIViewController {
         }
     }
     
-    /*
-     Note: Will create seperate page for signup where we will ask
-     user for more info s/a email and phone
-     */
-    
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
         user.username = usernameField.text
@@ -56,8 +51,36 @@ class LoginViewController: UIViewController {
                 print("Error: \(error!.localizedDescription)")
             }
         }
+    }
+
+    
+    /*
+     Note: Will create seperate page for signup where we will ask
+     user for more info s/a email and phone
+     */
+ /*
+    @IBAction func onSignUp(_ sender: Any) {
+        let user = PFUser()
+        user.username = usernameField.text
+        user.password = passwordField.text
+        
+        /*
+         To create a more neat sign up
+         */
+        user.signUpInBackground { (success, error) in
+            if success {
+                /*let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let mainTabBarController = storyboard.instantiateViewController(withIdentifier: "MainTabBarController")
+                (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController) */
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }
+            else{
+                print("Error: \(error!.localizedDescription)")
+            }
+        }
 
     }
+*/
     /*
     // MARK: - Navigation
 

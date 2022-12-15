@@ -7,31 +7,37 @@
 
 import UIKit
 
-class AddItemViewController: UIViewController {
+class AddItemViewController: UIViewController, UITextFieldDelegate {
+    
+    
 
+    @IBOutlet var titleField: UITextField!
+    @IBOutlet var bodyField: UITextField!
+    @IBOutlet var datePicker: UIDatePicker!
+    
+    public var completion: ((String, String, Date) -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        titleField.delegate = self
+        bodyField.delegate = self
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(didTapSaveButton))
         // Do any additional setup after loading the view.
     }
     
-
-    @IBAction func cancel(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @objc func didTapSaveButton(){
+        if let titleText = titleField.text, !titleText.isEmpty,
+           let bodyText = bodyField.text, !bodyText.isEmpty{
+            
+            let targetDate = datePicker.date
+            
+            completion?(titleText, bodyText, targetDate)
+        }
     }
     
-    @IBAction func submit(_ sender: Any) {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool{
+        textField.resignFirstResponder()
+        return true
     }
-    
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

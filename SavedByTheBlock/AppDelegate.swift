@@ -7,7 +7,6 @@
 import Parse
 import UIKit
 
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
